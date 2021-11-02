@@ -1,6 +1,13 @@
 # blinky
 A two led blinky using state-machine.com architecture running on [Arduino DUE hardware](https://store.arduino.cc/products/arduino-due)
 
+The program
+
+* flashes the internal LED twice per second
+* flashes the external LED (pin 12) three times per second
+
+All code based on exampes code written by [Quantum Leaps](https://www.state-machine.com/)
+
 ## Build
 
 * This project uses the [Quantum Leaps Real Time Embedded Framework (RTEF)](https://www.state-machine.com/products/qp)
